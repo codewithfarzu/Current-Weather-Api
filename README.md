@@ -1,1 +1,1 @@
-Check Project:-  https://codewithfarzu.github.io/Weather-API/
+Check Project:-   https://codewithfarzu.github.io/Current-Weather-Api/
