@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather App">
+
+    <!-- ============ BoxIcon Cdn ============ -->
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
+
+    <title>Weather Forecast</title>
+
+    <link rel="stylesheet" href="Assets/css/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="input-box align-item-center">
+                <div class="row">
+                    <div class="col-6 col-t-12">
+                        <div class="input-content">
+                            <div class="logo">
+                                <h1>Weather Report</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-t-12">
+                        <div class="search-box justify-item-cent">
+                            <form name="inputName">
+                                <label><input type="Search" name="city" placeholder="Enter city name" required></label>
+                                <button class="btn b1">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-t-12">
+                    <div class="weather-input text-center">
+                        <div class="location-data">
+                            <h2 id="cityName">London</h2>
+                            <p class="date">Date Month Year</p>
+                        </div>
+                        <div class="weather-degree flex align-item-center justify-center">
+                            <img src="Assets/img/cloudy.png" alt="cloud" loading="lazy" class="icon">
+                            <p class="temp" id="temperature">6°c</p>
+                        </div>
+                        <p class="cloud-info" id="cloud">Cloudy</p>
+                    </div>
+                </div>
+                <div class="col-6 col-t-12">
+                    <div class="weather-forecast flex">
+                        <div class="divider1"></div>
+
+                        <div class="forecast-content">
+                            <div class="divider3"></div>
+                            <p class="cast-header">Upcoming Forecast</p>
+                            <div class="templist">
+                                <div class="next flex space-between align-item-center">
+                                    <div>
+                                        <p class="time">8:30 pm</p>
+                                        <p>29 °c / 25 °c</p>
+                                    </div>
+                                    <p class="desc">Light Rain</p>
+                                </div>
+                                <div class="next flex space-between align-item-center">
+                                    <div>
+                                        <p class="time">8:30 pm</p>
+                                        <p>29 °c / 25 °c</p>
+                                    </div>
+                                    <p class="desc">Light Rain</p>
+                                </div>
+                                <div class="next flex space-between align-item-center">
+                                    <div>
+                                        <p class="time">8:30 pm</p>
+                                        <p>29 °c / 25 °c</p>
+                                    </div>
+                                    <p class="desc">Light Rain</p>
+                                </div>
+                                <div class="next flex space-between align-item-center">
+                                    <div>
+                                        <p class="time">8:30 pm</p>
+                                        <p>29 °c / 25 °c</p>
+                                    </div>
+                                    <p class="desc">Light Rain</p>
+                                </div>
+                                <div class="next flex space-between align-item-center">
+                                    <div>
+                                        <p class="time">8:30 pm</p>
+                                        <p>29 °c / 25 °c</p>
+                                    </div>
+                                    <p class="desc">Light Rain</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="container">
+        <div class="forecast-Day">
+            <div class="divider2"></div>
+            <p class="cast-header">Next 5 Days Forecast</p>
+            <div class="daysforecast flex space-around">
+                <div class="weekF">
+                    <div class="dayF">
+                        <p class="date">Sun Jan 12 2025</p>
+                        <p class="degree">29°c / 25°c</p>
+                        <p class="desc">Light Rain</p>
+                    </div>
+                </div>
+                <div class="weekF">
+                    <div class="dayF">
+                        <p class="date">Sun Jan 12 2025</p>
+                        <p class="degree">29°c / 25°c</p>
+                        <p class="desc">Light Rain</p>
+                    </div>
+                </div>
+                <div class="weekF">
+                    <div class="dayF">
+                        <p class="date">Sun Jan 12 2025</p>
+                        <p class="degree">29°c / 25°c</p>
+                        <p class="desc">Light Rain</p>
+                    </div>
+                </div>
+                <div class="weekF">
+                    <div class="dayF">
+                        <p class="date">Sun Jan 12 2025</p>
+                        <p class="degree">29°c / 25°c</p>
+                        <p class="desc">Light Rain</p>
+                    </div>
+                </div>
+                <div class="weekF">
+                    <div class="dayF">
+                        <p class="date">Sun Jan 12 2025</p>
+                        <p class="degree">29°c / 25°c</p>
+                        <p class="desc">Light Rain</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="Assets/js/main.js"></script>
+</body>
+
+</html>
