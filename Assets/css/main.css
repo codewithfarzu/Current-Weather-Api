@@ -19,16 +19,16 @@ html{
 }
 body{
     font: 400 16px var(--ff);
-    background-image:url(/Assets/img/weather-img.webp);
+    background-image:url(../img/weather-img.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
     object-fit: cover;
-    height: auto;
+    height: 100vh;
     /* overflow-x: hidden; */
     /* overflow-y: hidden; */
     position: relative;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 .container{
@@ -129,7 +129,7 @@ body::after{
 
 @media screen and (max-width:598px){
     body{padding-bottom: 21px; height: 100%;}
-    .forecast-Day{margin: 0; transform: translateY(50px);}
+    .forecast-Day{margin-top: 70px; transform: translateY(0);}
     .daysforecast{overflow-x: scroll;}
     .dayF .date{font-size: 12px;}
     .dayF .degree {font-size: 12px;}
