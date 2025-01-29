@@ -28,13 +28,14 @@ document.inputName.addEventListener("submit", function(e){
     //     //     day: '2-digit',}
     //     console.log(currentDate);
     // }
-
-
+     
+    // console.log(date.toString());
+    
     fetch(url).then(i=>i.json()).then(i=>{
         console.log(i)
-
+        const date = new Date();
         document.querySelector("#cityName").innerHTML=i.name+ ', '+ i.sys.country;
-        // document.querySelector(".date").innerHTML=i.dt_txt;
+        document.querySelector(".date").innerHTML=  date.toLocaleString();
         
         let icon= i.weather[0].icon;
         let iconurl= "https://api.openweathermap.org/img/w/" + icon +".png";
